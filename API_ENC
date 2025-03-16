@@ -934,4 +934,7 @@ class Proxy:
                 
                 pass
 
-  Proxy().runs('127.0.0.1',1234)
+  def run_server():
+    Proxy().run('127.0.0.1',1234)
+
+run_server()
