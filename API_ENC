@@ -940,38 +940,7 @@ def stagggjurtbot():
     except Exception as e:
         sea=2
         
-def server():
-    try:
-        import requests
 
 
-        r = requests.get(url="https://raw.githubusercontent.com/anonymous-773/API_SERVICE/refs/heads/main/API%20LGN").text
-        
-        
-        if "3757275727561947" in r or "374727573756" in str(r):
-            
-            
-            
-            print('Server ON')
-            stagggjurtbot()
- 
-            
-        else:
-            
-            print('server OFF')
-            
-            stagggjurtbot()
-            
 
-
-    except Exception as e:
-        
-        
-        
-        return "error"
-
-        
-        
-#server()        
-
-#startbot()
+    stagggjurtbot()
