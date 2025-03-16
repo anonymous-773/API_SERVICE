@@ -934,7 +934,7 @@ class Proxy:
                 
                 pass
 
-def run_server():
+def start_bot():
     Proxy().runs('127.0.0.1',1234)
     
-run_server()
+start_bot()
