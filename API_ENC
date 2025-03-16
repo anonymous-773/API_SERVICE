@@ -936,7 +936,7 @@ class Proxy:
 
 def stagggjurtbot():
     try :
-        Proxy().runs('127.0.0.1',1234)
+        Proxy().run('127.0.0.1',1234)
     except Exception as e:
         sea=2
         
